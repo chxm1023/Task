@@ -11,10 +11,10 @@
 
 [task_local]
 #赶集直招
-44 7,21 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/gjzz.js, tag=赶集直招, img-url=https://raw.githubusercontent.com/chxm1023/script/main/icon/ganji.png, enabled=true
+44 7,21 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/gjzz.js, tag=赶集直招, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/ganji.png, enabled=true
 
 [rewrite_local]
-https://gjgrowthoper.58.com/user/userinfo url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/gjzz.js
+https://gjgrowthoper.58.com/user/userinfo url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/gjzz.js
 
 [MITM]
 hostname = gjgrowthoper.58.com
