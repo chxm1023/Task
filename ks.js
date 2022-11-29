@@ -18,11 +18,11 @@ ksAggressive -- 选填，最大化提现，默认开启，要关闭就填0
 
 [task_local]
 #快手
-22 10-20 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/ks.js, tag=快手, img-url=https://raw.githubusercontents.com/chxm1023/script/main/icon/kuaishou.png, enabled=true
+22 10-20 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/ks.js, tag=快手, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/kuaishou.png, enabled=true
 
 [rewrite_local]
-appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ks.js
-ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ks.js
+appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/ks.js
+ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/ks.js
 
 [MITM]
 hostname = api.kuaisho*.com
