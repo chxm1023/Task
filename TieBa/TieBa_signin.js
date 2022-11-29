@@ -15,15 +15,15 @@
 以下是远程重写，和本地重写二选一
 [rewrite_remote]
 # 百度贴吧每日自动签到获取Cookie
-https://raw.githubusercontent.com/chxm1023/script/main/Task/TieBa/TieBa_cookie.js, tag=贴吧获取Cookie, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_cookie.js, tag=贴吧获取Cookie, update-interval=172800, opt-parser=false, enabled=true
 
 
 以下是本地重写，和远程重写二选一
 [rewrite_local]
 # 百度贴吧每日自动签到获取Cookie
-^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/TieBa/TieBa_signin.js
-^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/TieBa/TieBa_signin.js
-^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/TieBa/TieBa_signin.js
+^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
+^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js
 
 
 以下是主机名，搭配本地重写，远程重写内置已有主机名
