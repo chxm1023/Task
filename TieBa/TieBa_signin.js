@@ -9,7 +9,7 @@
 以下是添加远程任务
 [task_local]
 # 贴吧签到
-8 0 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/TieBa/TieBa_signin.js, tag=百度贴吧签到, img-url=https://raw.githubusercontent.com/chxm1023/script/main/icon/tieba.png, enabled=false
+8 0 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TieBa/TieBa_signin.js, tag=百度贴吧签到, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/tieba.png, enabled=true
 
 
 以下是远程重写，和本地重写二选一
