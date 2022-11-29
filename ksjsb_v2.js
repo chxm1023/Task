@@ -28,11 +28,11 @@ sigurl：sig3接口url，要求为get请求，直接返回sig3，脚本会把[ur
 
 [task_local]
 #快手极速版
-38 7-18 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/ksjsb_v2.js, tag=快手极速版, img-url=https://raw.githubusercontents.com/chxm1023/script/main/icon/kuaishou.png, enabled=true
+38 7-18 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/ksjsb_v2.js, tag=快手极速版, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/kuaishou.png, enabled=true
 
 [rewrite_local]
-appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ksjsb_v2.js
-ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ksjsb_v2.js
+appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/ksjsb_v2.js
+ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/ksjsb_v2.js
 
 [MITM]
 #IOS用第一个，安卓用第二个
