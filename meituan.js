@@ -19,10 +19,10 @@ meituanPosition： 可选，虚拟定位坐标，注意长度，格式: 11323333
 重写：(打开美团APP)
 [task_local]
 #美团
-26 0,7-21/2 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/meituan.js, tag=美团, img-url=https://raw.githubusercontents.com/chxm1023/script/main/icon/mt.png, enabled=true
+26 0,7-21/2 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/mt.png, enabled=true
 
 [rewrite_local]
-http://gaea.meituan.com/mop/entry/forbidden/resource url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/meituan.js
+http://gaea.meituan.com/mop/entry/forbidden/resource url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/meituan.js
 
 [mitm]
 hostname= open.meituan.com
