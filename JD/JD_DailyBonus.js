@@ -68,9 +68,9 @@ var OtherKey = `[{
 *************************
 
 [Script]
-京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
-获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
 [MITM]
 hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
@@ -80,9 +80,9 @@ hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 *************************
 
 [Script]
-cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
-http-request ^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?) tag=获取京东Cookie, requires-body=true, script-path=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+http-request ^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?) tag=获取京东Cookie, requires-body=true, script-path=https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
 [MITM]
 hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
@@ -93,14 +93,14 @@ hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
 
 [task_local]
 # 京东多合一签到
-5 0 * * * https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/icons/jd.png,enabled=true
+5 0 * * * https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/JD/icons/jd.png,enabled=true
 
 [rewrite_local]
 # 获取京东Cookie. 
-^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
 # 获取钢镚签到body. 
-^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? url script-request-body https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/JD_DailyBonus.js
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? url script-request-body https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js
 
 [mitm]
 hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
