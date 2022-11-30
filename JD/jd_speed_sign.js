@@ -10,7 +10,7 @@
 ============Quantumultx===============
 [task_local]
 #京东极速版
-5 0,8 * * * https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/icons/jd.png, enabled=true
+5 0,8 * * * https://raw.githubusercontent.com/chxm1023/Task/main/JD/jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/JD/icons/jd.png, enabled=true
 
 */
 const $ = new Env('京东极速版');
