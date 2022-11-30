@@ -11,16 +11,16 @@ crontab="2 9 * * *"
 ============QuantumultX==============
 [task_local]
 #京东资产变动通知
-2 9 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_bean_change.js, tag=京东资产变动加强通知, img-url=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/icons/jd.png, enabled=true
+2 9 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/JD/jd_bean_change.js, tag=京东资产变动加强通知, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/JD/icons/jd.png, enabled=true
 ================Loon===============
 [Script]
 cron "2 9 * * *" script-path= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_bean_change.js, tag=京东资产变动通知
 =============Surge===========
 [Script]
-京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_bean_change.js
+京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path= https://raw.githubusercontent.com/chxm1023/Task/main/JD/jd_bean_change.js
 
 ============小火箭=========
-京东资产变动通知 = type=cron,script-path= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_bean_change.js, cronexpr="2 9 * * *", timeout=3600, enable=true
+京东资产变动通知 = type=cron,script-path= https://raw.githubusercontent.com/chxm1023/Task/main/JD/jd_bean_change.js, cronexpr="2 9 * * *", timeout=3600, enable=true
  */
 
 const $ = new Env('京东资产变动通知');
