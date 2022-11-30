@@ -8,13 +8,13 @@
  * > https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js
  *
  * # Surge
- * Tasks: 京东物流派件提醒 = type=cron,cronexp=0 12 * * *,script-path= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jdWuLiu.js,wake-system=true
+ * Tasks: 京东物流派件提醒 = type=cron,cronexp=0 12 * * *,script-path= https://raw.githubusercontent.com/chxm1023/Task/main/JD/jdWuLiu.js,wake-system=true
  *
  * # QuanX
- * 0 12 * * * https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jdWuLiu.js, tag=京东物流派件提醒, img-url= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/icons/jd.png
+ * 0 12 * * * https://raw.githubusercontent.com/chxm1023/Task/main/JD/jdWuLiu.js, tag=京东物流派件提醒, img-url= https://raw.githubusercontent.com/chxm1023/Task/main/JD/icons/jd.png
  *
  * # Loon
- * cron "0 12 * * *" script-path= https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jdWuLiu.js
+ * cron "0 12 * * *" script-path= https://raw.githubusercontent.com/chxm1023/Task/main/JD/jdWuLiu.js
  *
  */
 const $ = new Env('京东物流');
