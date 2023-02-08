@@ -1,0 +1,14 @@
+{
+	"name": "chxm1023自用图标库",
+	"description": "收集互联网公开图标文件，版权属于原作者和商标持有人。",
+	"icons": [{
+		"name": "阿里网盘",
+		"url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png"
+	}, {
+		"name": "Icon-Name-2",
+		"url": "https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/icon-samples\/us.PNG"
+	}, {
+		"name": "Icon-Name-3",
+		"url": "https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/icon-samples\/google.PNG"
+	}]
+}
