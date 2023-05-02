@@ -7,7 +7,7 @@
 **************************************
 
 [task_local]
-*/20 * * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/Auto_join_TF.js, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true
+*/60 * * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/Auto_join_TF.js, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true
 
 [rewrite_local]
 # 获取TF信息
