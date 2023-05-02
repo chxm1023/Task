@@ -1,4 +1,6 @@
-/*
+/*************************************
+
+项目名称：获取TF信息
 脚本作者：DecoAri
 引用地址：https://github.com/DecoAri/JavaScript/blob/main/Surge/TF_keys.js
 具体使用步骤
@@ -7,7 +9,9 @@
 3: 启动VPN，进入到TestFlight App，显示通知信息获取成功
 4: 到配置-> 持久化数据 -> 导入指定数据  key填写APP_ID，value填写你要加入的TF的ID，（ID为链接 https://testflight.apple.com/join/LPQmtkUs 的join后的字符串（也就是此例子的“LPQmtkUs”）⚠️：支持无限个TF链接，每个链接需要用英文逗号“,”隔开（如： LPQmtkUs,Hgun65jg,8yhJgv）
 ）
-*/
+*************************************/
+
+
 const reg1 = /^https:\/\/testflight\.apple\.com\/v3\/accounts\/(.*)\/apps$/;
 const reg2 = /^https:\/\/testflight\.apple\.com\/join\/(.*)/;
 if (reg1.test($request.url)) {
