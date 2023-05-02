@@ -6,22 +6,22 @@
 
 **************************************
 
- Boxjs订阅链接：https://raw.githubusercontent.com/githubdulong/Script/master/boxjs.json
+Boxjs订阅链接：https://raw.githubusercontent.com/githubdulong/Script/master/boxjs.json
 
- 使用方法: 订阅以上Boxjs链接，填写你要加入的TF的ID，（ID为链接 https://testflight.apple.com/join/LPQmtkUs 的join后的字符串（也就是此例子的“LPQmtkUs”）⚠️：支持无限个TF链接，每个链接需要用英文逗号“,”隔开（如： LPQmtkUs,Hgun65jg,8yhJgv）
+使用方法: 订阅以上Boxjs链接，填写你要加入的TF的ID，（ID为链接 https://testflight.apple.com/join/LPQmtkUs 的join后的字符串（也就是此例子的“LPQmtkUs”）⚠️：支持无限个TF链接，每个链接需要用英文逗号“,”隔开（如： LPQmtkUs,Hgun65jg,8yhJgv）
 
- ⚠️提示：
- 1: 除beta已满的其他情况才会通知，可自行看日志
- 2: 报错1012是因为未执行使用方法的步骤2
- 3: 已支持同时挤🚪，支持无限TF链接
- 4: 获取tf信息的脚本与TestFlight账户管理模块冲突，使用的时候先关一下该模块
+温馨提示：
+1: 除beta已满的其他情况才会通知，可自行看日志
+2: 报错1012是因为未执行使用方法的步骤2
+3: 已支持同时挤🚪，支持无限TF链接
+4: 获取tf信息的脚本与TestFlight账户管理模块冲突，使用的时候先关一下该模块
 
 **************************************
 
 [rewrite_local]
-# 获取TF信息
+# 获取TF信息(打开TF自动获取信息)
 ^https?:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$ url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys_QX.js
-# APP_ID获取
+# APP_ID获取(打开TF链接获取APP_ID)
 ^https?:\/\/testflight\.apple\.com\/join\/(.*) url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys_QX.js
 
 [MITM]
