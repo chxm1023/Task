@@ -2,7 +2,7 @@
 
 项目名称：自动加入TF
 脚本作者：DecoAri
-引用链接：https://github.com/DecoAri/JavaScript/blob/main/Surge/TF_keys.js
+引用链接：https://github.com/DecoAri/JavaScript/blob/main/Surge/Auto_join_TF.js
 
 **************************************
 
