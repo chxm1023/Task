@@ -26,7 +26,7 @@
 # 获取TF信息
 ^https?:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$ url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys.js
 # APP_ID获取
-^https?:\/\/testflight\.apple\.com\/join\/(.*) url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys.js
+https://testflight.apple.com/join/(.*) url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys.js
 
 [MITM]
 hostname = testflight.apple.com
