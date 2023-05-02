@@ -1,8 +1,20 @@
 /*************************************
 
 项目名称：自动加入TF
-引用链接：https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/Auto_join_TF.js
 脚本作者：DecoAri
+引用链接：https://github.com/DecoAri/JavaScript/blob/main/Surge/TF_keys.js
+
+**************************************
+
+ Boxjs订阅链接：https://raw.githubusercontent.com/githubdulong/Script/master/boxjs.json
+
+ 使用方法: 订阅以上Boxjs链接，填写你要加入的TF的ID，（ID为链接 https://testflight.apple.com/join/LPQmtkUs 的join后的字符串（也就是此例子的“LPQmtkUs”）⚠️：支持无限个TF链接，每个链接需要用英文逗号“,”隔开（如： LPQmtkUs,Hgun65jg,8yhJgv）
+
+ ⚠️提示：
+ 1: 除beta已满的其他情况才会通知，可自行看日志
+ 2: 报错1012是因为未执行使用方法的步骤2
+ 3: 已支持同时挤🚪，支持无限TF链接
+ 4: 获取tf信息的脚本与TestFlight账户管理模块冲突，使用的时候先关一下该模块
 
 **************************************
 
