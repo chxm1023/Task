@@ -6,11 +6,17 @@
 
 **************************************
 
-
-
-
 [task_local]
 */20 * * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/Auto_join_TF.js, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true
+
+[rewrite_local]
+# 获取TF信息
+^https?:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$ url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys.js
+# 获取APP_ID
+^https?:\/\/testflight\.apple\.com\/join\/(.*) url script-request-header https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys.js
+
+[MITM]
+hostname = testflight.apple.com
 
 *************************************/
 
