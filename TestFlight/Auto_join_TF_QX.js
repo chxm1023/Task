@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/TF_keys_QX.js, t
 
 [task_local]
 # 自动加入TF(每1小时执行一次)
-5 0-23/1 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/Auto_join_TF_QX.js, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true
+0 0-23/1 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/TestFlight/Auto_join_TF_QX.js, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true
 
 **************************************
 */
