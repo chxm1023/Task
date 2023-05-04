@@ -1,0 +1,20 @@
+#!name = 自动加入TF
+#!desc = 监控TestFlight名额，有新的名额自动申请加入。TF测试仓库：
+#!openUrl = https://too.st/5eZ
+#!author = DecoAri
+#!homepage = https://github.com/DecoAri
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png
+#!input = APP_ID
+
+
+[Script]
+# 自动加入TF(每1小时执行一次)
+cron "0 */1 * * ?" script-path=https://raw.githubusercontent.com/chxm1023/Task/Loon/TestFlight/Auto_join_TF.js, timeout=150, tag=自动加入TF, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png
+# 获取TF信息
+http-request ^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$ script-path=https://raw.githubusercontent.com/chxm1023/Task/Loon/TestFlight/TF_keys.js, timeout=10, enabled=true, tag=TF信息获取, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png
+# APP_ID获取
+http-request ^https?:\/\/testflight\.apple\.com\/join\/(.*) script-path=https://raw.githubusercontent.com/chxm1023/Task/Loon/TestFlight/TF_keys.js, timeout=10, enabled=true, tag=APP_ID获取, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png
+
+
+[MITM]
+hostname = testflight.apple.com
