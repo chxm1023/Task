@@ -1,5 +1,5 @@
 #!name = 彩云天气
-#!desc = 1️⃣打开手机设置 > 隐私 > 定位服务 > 打开定位服务 > 选择天气>设置永远允许天气访问位置信息，并允许使用精确位置。2️⃣打开box.js设置彩云令牌(不是链接！！！）。3️⃣令牌申请教程：
+#!desc = 1️⃣打开手机设置 > 隐私 > 定位服务 > 打开定位服务 > 选择天气 > 设置永远允许天气访问位置信息，并允许使用精确位置。2️⃣打开box.js设置彩云令牌(不是链接!)。3️⃣令牌申请教程：
 #!openUrl = https://github.com/chiupam/tutorial/blob/master/caiyun/README.md
 #!author = Peng-YM
 #!homepage = https://github.com/Peng-YM/QuanX
