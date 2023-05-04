@@ -1,6 +1,6 @@
 #!name = 彩云天气
 #!desc = 1️⃣打开手机设置 > 隐私 > 定位服务 > 打开定位服务 > 选择天气 > 设置永远允许天气访问位置信息，允许使用精确位置 2️⃣打开boxjs.com设置彩云令牌，设置经纬度，获取经纬度：
-#!openUrl = www.jsons.cn/lngcode
+#!openUrl = http://www.jsons.cn/lngcode
 #!author = Peng-YM
 #!homepage = https://github.com/chiupam/tutorial/blob/master/caiyun/README.md
 #!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/caiyun.png
