@@ -1,0 +1,14 @@
+#!name=阿里云盘签到
+#!desc=阿里云盘定时签到
+#!homepage=https://ybnet.ga
+#!author=lowking
+#!icon=https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png
+
+[Script]
+# 获取Token
+http-response https:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, requires-body=true, timeout=10, tag=阿里云盘签到cookie, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png
+# 阿里云盘签到
+cron "10 0 * * ?" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, timeout=300, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png
+
+[MITM]
+hostname = auth.aliyundrive.com
