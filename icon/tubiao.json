@@ -4,27 +4,6 @@
  {"name": "哆啦A梦",
   "url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/ddm.png"},
 
- {"name": "Loon1",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_1.png"},
-
- {"name": "Loon2",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_2.png"},
-
- {"name": "Loon3",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_3.png"},
-
- {"name": "Loon4",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_4.png"},
-
- {"name": "Loon5",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_5.png"},
-
- {"name": "Loon6",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_6.png"},
-
- {"name": "Loon7",
-  "url": "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/Loon/Loon_7.png"},
-
  {"name": "阿里网盘",
   "url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png"},
 
@@ -103,6 +82,6 @@
  {"name": "小米运动",
   "url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/xmyd.png"},
 
- {"name": "TikTok",
-  "url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/TikTok.png"}
+ {"name": "渤海",
+  "url": "https://raw.githubusercontent.com/chxm1023/Task/main/icon/bohai.png"}
 ]}
